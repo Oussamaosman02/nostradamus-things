@@ -1,0 +1,31 @@
+.messi{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:100vw;
+}
+
+.header {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+  width:100vw;
+  background-color: whitesmoke;
+  height:25vh;
+}
+
+.header h1 {
+  width:40vw;
+  padding: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 200;
+}
+.header div{
+  width:30vw;
+}
+.main {
+  width: 100vw;  
+}
