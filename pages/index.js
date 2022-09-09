@@ -20,6 +20,41 @@ export default function Home() {
             <a>2015</a>
           </Link>
         </li>
+        <li>
+          <Link href="/2016">
+            <a>2016</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/2017">
+            <a>2017</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/2018">
+            <a>2018</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/2019">
+            <a>2019</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/2020">
+            <a>2020</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/2021">
+            <a>2021</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/2022">
+            <a>2022</a>
+          </Link>
+        </li>
       </ul>
       <h2>¿Quién?</h2>
       <p>

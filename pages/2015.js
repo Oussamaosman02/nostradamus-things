@@ -72,6 +72,7 @@ export default function dosquince() {
           </li>
         </ol>
       </div>
+      <h2 className={s.h}>Noticias destacadas y relacionadas</h2>
       <div className={s.cont}>
         <ul>
           <li>
