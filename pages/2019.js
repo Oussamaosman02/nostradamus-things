@@ -1,9 +1,23 @@
-import s from "../styles/years.module.css";
+import s from '../styles/years.module.css';
+import Head from 'next/head';
 
 export default function dosdiecinueve() {
   return (
     <>
-      <h1 className={s.h}>Profecías para 2019</h1>
+      <Head>
+        <title>Nostradamus para 2019</title>
+        <meta
+          name="description"
+          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2019? Entonces no te puedes perder nuestra página"
+        />
+        <meta property="og:title" content="Predicciones de Nostradamus 2019" />
+        <meta
+          property="og:description"
+          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2019?"
+        />
+        <meta property="og:site_name" content="Nostradamus para 2019" />
+      </Head>
+      <h1 className={s.h}>Predicciones para 2019</h1>
       <div className={s.cont}>
         <ol>
           <li>
@@ -102,7 +116,7 @@ export default function dosdiecinueve() {
             terrorismo ha caído en el último año. Por primera vez desde 2013,
             Daesh no es el grupo terrorista más letal. MENA es la región con más
             muertes por terrorismo, aunque desciende el número en Irak y aumenta
-            en Afganistán{" "}
+            en Afganistán{' '}
           </li>
           <li>
             <b>

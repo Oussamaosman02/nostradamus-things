@@ -1,9 +1,23 @@
-import s from "../styles/years.module.css";
+import s from '../styles/years.module.css';
+import Head from 'next/head';
 
 export default function dosdiecisiete() {
   return (
     <>
-      <h1 className={s.h}>Profecías para 2017</h1>
+      <Head>
+        <title>Nostradamus para 2017</title>
+        <meta
+          name="description"
+          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2017?Entonces no te puedes perder nuestra página"
+        />
+        <meta property="og:title" content="Predicciones de Nostradamus 2017" />
+        <meta
+          property="og:description"
+          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2017?"
+        />
+        <meta property="og:site_name" content="Nostradamus para 2017" />
+      </Head>
+      <h1 className={s.h}>Predicciones para 2017</h1>
       <div className={s.cont}>
         <ol>
           <li>
@@ -99,7 +113,7 @@ export default function dosdiecisiete() {
             <b>
               La economía europea acelera su recuperación con España en el grupo
               de cabeza
-            </b>{" "}
+            </b>{' '}
             Italia, cuestionada por su elevada deuda y la anemia que afecta a su
             economía desde hace más de 15 años, ha sorprendido favorablemente.
             Roma ha acelerado el ritmo de crecimiento interanual hasta el 1,5%

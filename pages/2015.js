@@ -1,9 +1,23 @@
-import s from "../styles/years.module.css";
+import Head from 'next/head';
+import s from '../styles/years.module.css';
 
 export default function dosquince() {
   return (
     <>
-      <h1 className={s.h}>Profecías para 2015</h1>
+      <Head>
+        <title>Nostradamus para 2015</title>
+        <meta
+          name="description"
+          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2015 ?Entonces no te puedes perder nuestra página"
+        />
+        <meta property="og:title" content="Predicciones de Nostradamus 2015" />
+        <meta
+          property="og:description"
+          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2015 ?"
+        />
+        <meta property="og:site_name" content="Nostradamus para 2015" />
+      </Head>
+      <h1 className={s.h}>Predicciones para 2015</h1>
       <div className={s.cont}>
         <ol>
           <li>
@@ -155,7 +169,7 @@ export default function dosquince() {
             <br />
             <b>
               Crean aplicación que te ayuda a &quot;hablar&quot; con tu perro
-            </b>{" "}
+            </b>{' '}
             Una compañía estadounidense creó un sensor que analiza los
             movimientos de los perros y ayuda a identificar su estado de ánimo.
             Luego, son trasmitidos al celular de su amo para que éste sepa qué

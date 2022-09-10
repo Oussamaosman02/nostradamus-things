@@ -1,21 +1,35 @@
 import Image from 'next/image';
+import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import imagen from '../public/nostradamus.jpg';
 import st from '../styles/layout.module.css';
 export default function Layout({ children }) {
   const router = useRouter();
+  const url = `http://nostradamus-unofficial.netlify.app${router.route}`;
   return (
     <div className={st.messi}>
+      <Head>
+        <meta name="robots" content="index,follow" />
+        <meta name="googlebot" content="index,follow" />
+        <meta property="og:locale" content="es_ES" />
+        <meta property="og:image" content={imagen} />
+        <meta property="og:image:width" content="833" />
+        <meta property="og:image:height" content="1024" />
+        <meta property="og:url" content={url} />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Link href="/">
         <header className={st.header}>
           <div>
             <Image
               priority
-              src="/nostradamus.jpg"
+              src={imagen}
               width={833}
               alt="nostradamus"
               height={1024}
               layout="responsive"
+              placeholder="blur"
             />
           </div>
           <h1>Nostradamus</h1>

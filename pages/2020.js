@@ -1,9 +1,24 @@
-import s from "../styles/years.module.css";
+import s from '../styles/years.module.css';
+import Head from 'next/head';
 
 export default function dosveinte() {
   return (
     <>
-      <h1 className={s.h}>Profecías para 2020</h1>
+      {' '}
+      <Head>
+        <title>Nostradamus para 2020</title>
+        <meta
+          name="description"
+          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2020? Entonces no te puedes perder nuestra página"
+        />
+        <meta property="og:title" content="Predicciones de Nostradamus 2020" />
+        <meta
+          property="og:description"
+          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2020?"
+        />
+        <meta property="og:site_name" content="Nostradamus para 2020" />
+      </Head>
+      <h1 className={s.h}>Predicciones para 2020</h1>
       <div className={s.cont}>
         <ol>
           <li>
