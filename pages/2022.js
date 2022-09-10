@@ -8,12 +8,12 @@ export default function dosveintidos() {
         <title>Nostradamus para 2022</title>
         <meta
           name="description"
-          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el 2022?Entonces no te puedes perder nuestra página"
+          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el 2022? Entonces no te puedes perder nuestra página"
         />
         <meta property="og:title" content="Predicciones de Nostradamus 2022" />
         <meta
           property="og:description"
-          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el 2022?"
+          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el 2022?"
         />
         <meta property="og:site_name" content="Nostradamus para 2022" />
       </Head>

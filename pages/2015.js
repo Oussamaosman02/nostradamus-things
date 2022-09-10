@@ -8,12 +8,12 @@ export default function dosquince() {
         <title>Nostradamus para 2015</title>
         <meta
           name="description"
-          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2015 ?Entonces no te puedes perder nuestra página"
+          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2015 ?Entonces no te puedes perder nuestra página"
         />
         <meta property="og:title" content="Predicciones de Nostradamus 2015" />
         <meta
           property="og:description"
-          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2015 ?"
+          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2015 ?"
         />
         <meta property="og:site_name" content="Nostradamus para 2015" />
       </Head>

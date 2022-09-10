@@ -8,12 +8,12 @@ export default function dosdiecinueve() {
         <title>Nostradamus para 2019</title>
         <meta
           name="description"
-          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2019? Entonces no te puedes perder nuestra página"
+          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2019? Entonces no te puedes perder nuestra página"
         />
         <meta property="og:title" content="Predicciones de Nostradamus 2019" />
         <meta
           property="og:description"
-          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2019?"
+          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2019?"
         />
         <meta property="og:site_name" content="Nostradamus para 2019" />
       </Head>

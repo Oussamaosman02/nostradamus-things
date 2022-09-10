@@ -6,7 +6,8 @@ import imagen from '../public/nostradamus.jpg';
 import st from '../styles/layout.module.css';
 export default function Layout({ children }) {
   const router = useRouter();
-  const url = `https://nostradamus-unofficial.netlify.app${router.route}`;
+  const uri = 'https://nostradamus-unofficial.netlify.app';
+  const url = `${uri}${router.route}`;
   return (
     <div className={st.messi}>
       <Head>
@@ -14,8 +15,14 @@ export default function Layout({ children }) {
         <meta name="googlebot" content="index,follow" />
         <meta property="og:locale" content="es_ES" />
         <meta property="og:image" content="/nostradamus.jpg" />
+        <meta
+          property="og:image:secure_url"
+          content={`${uri}/nostradamus.jpg`}
+        />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:alt" content="Nostradamus" />
         <meta property="og:url" content={url} />
-        <link rel="icon" href="/favicon1.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Link href="/">
         <header className={st.header}>

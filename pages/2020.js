@@ -9,12 +9,12 @@ export default function dosveinte() {
         <title>Nostradamus para 2020</title>
         <meta
           name="description"
-          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2020? Entonces no te puedes perder nuestra página"
+          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2020? Entonces no te puedes perder nuestra página"
         />
         <meta property="og:title" content="Predicciones de Nostradamus 2020" />
         <meta
           property="og:description"
-          content="¿Quieres saber todas las predicciones que hizo Nostradamus para el año 2020?"
+          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2020?"
         />
         <meta property="og:site_name" content="Nostradamus para 2020" />
       </Head>
