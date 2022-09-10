@@ -1,4 +1,4 @@
-import s from "../styles/years.module.css";
+import s from '../styles/years.module.css';
 
 export default function dosdieciseis() {
   return (
@@ -26,7 +26,7 @@ export default function dosdieciseis() {
             <span className={s.noact}></span>
           </li>
           <li>
-            {" "}
+            {' '}
             Habrá un gran terremoto en Estados Unidos. Según la profecía, será
             el más fuerte de toda la historia en territorio estadounidense.
             <span className={s.noact}></span>
@@ -158,7 +158,6 @@ export default function dosdieciseis() {
             Don João vive a orillas de un río en plena selva amazónica y según
             su partida de nacimiento tiene 131 años
           </li>
-          <li></li>
         </ul>
       </div>
     </>

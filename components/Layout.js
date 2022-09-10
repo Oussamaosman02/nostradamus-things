@@ -1,10 +1,9 @@
-import Image from "next/image";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import st from "../styles/layout.module.css";
+import Image from 'next/image';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import st from '../styles/layout.module.css';
 export default function Layout({ children }) {
   const router = useRouter();
-  console.log(router);
   return (
     <div className={st.messi}>
       <Link href="/">
@@ -23,8 +22,8 @@ export default function Layout({ children }) {
         </header>
       </Link>
 
-      {router.route === "/" ? (
-        ""
+      {router.route === '/' ? (
+        ''
       ) : (
         <nav className={st.nav}>
           <ul>
