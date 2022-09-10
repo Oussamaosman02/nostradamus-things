@@ -13,7 +13,7 @@ export default function Layout({ children }) {
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow" />
         <meta property="og:locale" content="es_ES" />
-        <meta property="og:image" content="../public/nostradamus.jpg" />
+        <meta property="og:image" content="/nostradamus.jpg" />
         <meta property="og:url" content={url} />
         <link rel="icon" href="/favicon1.ico" />
       </Head>
