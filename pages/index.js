@@ -18,7 +18,7 @@ export default function Home() {
         />
         <meta property="og:site_name" content="Nostradamus" />
       </Head>
-      <h1>Predicciones para cada Año</h1>
+      <h1>Predicciones por Año</h1>
       <ul>
         <li>
           <Link href="/2015">

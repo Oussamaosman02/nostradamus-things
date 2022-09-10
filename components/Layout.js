@@ -13,7 +13,7 @@ export default function Layout({ children }) {
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow" />
         <meta property="og:locale" content="es_ES" />
-        <meta property="og:image" content={imagen} />
+        <meta property="og:image" content="/nostradamus.jpg" />
         <meta property="og:image:width" content="833" />
         <meta property="og:image:height" content="1024" />
         <meta property="og:url" content={url} />
