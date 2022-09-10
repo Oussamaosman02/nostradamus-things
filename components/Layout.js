@@ -22,7 +22,6 @@ export default function Layout({ children }) {
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:alt" content="Nostradamus" />
         <meta property="og:url" content={url} />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Link href="/">
         <header className={st.header}>
