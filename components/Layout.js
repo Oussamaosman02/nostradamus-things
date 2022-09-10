@@ -1,12 +1,12 @@
-import Image from 'next/image';
-import Head from 'next/head';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import imagen from '../public/nostradamus.jpg';
-import st from '../styles/layout.module.css';
+import Image from "next/image";
+import Head from "next/head";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import imagen from "../public/nostradamus.jpg";
+import st from "../styles/layout.module.css";
 export default function Layout({ children }) {
   const router = useRouter();
-  const uri = 'https://nostradamus-unofficial.netlify.app';
+  const uri = "https://nostradamus-unofficial.netlify.app";
   const url = `${uri}${router.route}`;
   return (
     <div className={st.messi}>
@@ -14,7 +14,10 @@ export default function Layout({ children }) {
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow" />
         <meta property="og:locale" content="es_ES" />
-        <meta property="og:image" content="/nostradamus.jpg" />
+        <meta property="og:image" content="/android-chrome-192" />
+        <meta property="og:image:width" content="192" />
+        <meta property="og:image:height" content="192" />
+
         <meta
           property="og:image:secure_url"
           content={`${uri}/nostradamus.jpg`}
@@ -40,8 +43,8 @@ export default function Layout({ children }) {
         </header>
       </Link>
 
-      {router.route === '/' ? (
-        ''
+      {router.route === "/" ? (
+        ""
       ) : (
         <nav className={st.nav}>
           <ul>
