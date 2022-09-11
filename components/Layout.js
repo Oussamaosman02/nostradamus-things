@@ -14,7 +14,7 @@ export default function Layout({ children }) {
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow" />
         <meta property="og:locale" content="es_ES" />
-        <meta property="og:image" content="/android-chrome-192" />
+        <meta property="og:image" content={`${uri}/android-chrome-192.png`} />
         <meta property="og:image:width" content="192" />
         <meta property="og:image:height" content="192" />
         <link rel="canonical" href={url} />
