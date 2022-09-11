@@ -1,5 +1,9 @@
-import s from '../styles/years.module.css';
-import Head from 'next/head';
+import s from "../styles/years.module.css";
+import Head from "next/head";
+import Image from "next/image";
+
+import alaska from "../public/assets/alaska2016-nostradamus.webp";
+import ecuador from "../public/assets/ecuador2016-nostradamus.webp";
 
 export default function dosdieciseis() {
   return (
@@ -40,7 +44,7 @@ export default function dosdieciseis() {
             <span className={s.noact}></span>
           </li>
           <li>
-            {' '}
+            {" "}
             Habrá un gran terremoto en Estados Unidos. Según la profecía, será
             el más fuerte de toda la historia en territorio estadounidense.
             <span className={s.noact}></span>
@@ -143,12 +147,32 @@ export default function dosdieciseis() {
             partes.
           </li>
           <li>
+            <div>
+              <Image
+                src={alaska}
+                width={520}
+                height={250}
+                alt="Terremoto de magnitud 7,1 en el sur de Alaska"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>Terremoto de magnitud 7,1 en el sur de Alaska</b>reporta el
             Servicio Sismológico de EE. UU. El Servicio Sismológico de Estados
             Unidos (USGS, por sus siglas en inglés) reportó que el epicentro del
             sismo se ubicó cerca de Cook Inlet, a unos 260 kilómetros al
             suroeste de Anchorage y a 80 kilómetros de profundidad.
             <br />
+            <div>
+              <Image
+                src={ecuador}
+                width={640}
+                height={360}
+                alt="Terremoto en Ecuador 2016"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>Terremoto en Ecuador</b>El terremoto de Ecuador de 2016 fue un
             movimiento sísmico ocurrido a las 18:58 ECT del sábado, 16 de abril,
             con epicentro entre las parroquias Pedernales y Cojimíes del cantón

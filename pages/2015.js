@@ -1,5 +1,10 @@
-import Head from 'next/head';
-import s from '../styles/years.module.css';
+import Head from "next/head";
+import Image from "next/image";
+import s from "../styles/years.module.css";
+
+import anciana from "../public/assets/anciana-nostradamus.webp";
+import calbuco from "../public/assets/calbuco-nostradamus.webp";
+import coquimbo from "../public/assets/coquimbo-nostradamus.webp";
 
 export default function dosquince() {
   return (
@@ -90,6 +95,16 @@ export default function dosquince() {
       <div className={s.cont}>
         <ul>
           <li>
+            <div>
+              <Image
+                src={calbuco}
+                width={606}
+                height={404}
+                alt="Entra en erupción el volcán Calbuco"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>Entra en erupción el volcán Calbuco tras medio siglo dormido</b>
             Una impresionante columna de piedras, humo y ceniza de veinte
             kilómetos de altura ha caído sobre los pueblos del entorno. Los
@@ -133,6 +148,16 @@ export default function dosquince() {
             extinción.
           </li>
           <li>
+            <div>
+              <Image
+                src={anciana}
+                width={770}
+                height={542}
+                alt="Muere a los 117 años la persona más vieja del mundo"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>Muere a los 117 años la persona más vieja del mundo</b>La persona
             más vieja del mundo, la japonesa Misao Okawa, ha fallecido a los 117
             años por causas naturales en la residencia de Osaka donde residía.
@@ -141,6 +166,16 @@ export default function dosquince() {
             de ese mismo año como la persona viva más vieja.
           </li>
           <li>
+            <div>
+              <Image
+                src={coquimbo}
+                width={490}
+                height={354}
+                alt="Terremoto de Coquimbo 2015"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>Terremoto de Coquimbo</b>
             8.3 en potencia de Magnitud de Momento (MW) 8.4 Mw en escala de
             Richter (ML).A Fecha 16 de septiembre de 2015, 19:54 (UTC-3) con una
@@ -169,7 +204,7 @@ export default function dosquince() {
             <br />
             <b>
               Crean aplicación que te ayuda a &quot;hablar&quot; con tu perro
-            </b>{' '}
+            </b>{" "}
             Una compañía estadounidense creó un sensor que analiza los
             movimientos de los perros y ayuda a identificar su estado de ánimo.
             Luego, son trasmitidos al celular de su amo para que éste sepa qué

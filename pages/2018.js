@@ -1,5 +1,7 @@
-import s from '../styles/years.module.css';
-import Head from 'next/head';
+import s from "../styles/years.module.css";
+import Head from "next/head";
+import Image from "next/image";
+import nobel from "../public/assets/nobelmedicina-nostradamus.webp";
 
 export default function dosdieciocho() {
   return (
@@ -100,6 +102,16 @@ export default function dosdieciocho() {
             Zelanda, considerados los menos corruptos en 2017.
           </li>
           <li>
+            <div>
+              <Image
+                src={nobel}
+                width={720}
+                height={405}
+                alt="La inmunoterapia del cáncer gana el Nobel de Medicina"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>La inmunoterapia del cáncer gana el Nobel de Medicina</b>La
             inmunoterapia del cáncer que ha revolucionado el tratamiento y
             mejorado el pronóstico de múltiples tumores en los últimos cinco

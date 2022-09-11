@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://homosapiens.site
+
+# Sitemaps
+Sitemap: https://homosapiens.site/sitemap.xml

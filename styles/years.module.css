@@ -14,6 +14,16 @@
     width: 100%;
     padding: 15px;
 }
+.cont ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2vh auto;
+}
+.cont ul li div {
+    width: 75vw;
+}
 .cont ul li b {
     margin-right: 5px;
 }
@@ -45,4 +55,10 @@
 .h {
   width:100%;
     text-align: center;
+}
+@media (min-width: 600px) {
+
+    .cont ul li div {
+        width: 45vw;
+    }
 }

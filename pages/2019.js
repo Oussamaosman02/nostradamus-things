@@ -1,5 +1,10 @@
-import s from '../styles/years.module.css';
-import Head from 'next/head';
+import s from "../styles/years.module.css";
+import Head from "next/head";
+
+import Image from "next/image";
+
+import california from "../public/assets/california-nostradamus.webp";
+import estromboli from "../public/assets/estromboli-nostradamus.webp";
 
 export default function dosdiecinueve() {
   return (
@@ -89,6 +94,17 @@ export default function dosdiecinueve() {
             ranking anual de lluvias de estrellas.
           </li>
           <li>
+            <div>
+              <Image
+                src={california}
+                width={600}
+                height={337}
+                alt="Un fuerte terremoto de magnitud 7,1 vuelve a sacudir el sur de
+                California"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>
               Un fuerte terremoto de magnitud 7,1 vuelve a sacudir el sur de
               California
@@ -98,6 +114,16 @@ export default function dosdiecinueve() {
             en la región en 20 años
           </li>
           <li>
+            <div>
+              <Image
+                src={estromboli}
+                width={449}
+                height={220}
+                alt="La erupción del volcán Estrómboli"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>La erupción del volcán Estrómboli</b>Además un volcán situado en
             el oriente de Rusia, y que se creía extinto hasta hace poco, ha
             despertado. Se trata del Bolshaya Udina, que según los expertos
@@ -116,7 +142,7 @@ export default function dosdiecinueve() {
             terrorismo ha caído en el último año. Por primera vez desde 2013,
             Daesh no es el grupo terrorista más letal. MENA es la región con más
             muertes por terrorismo, aunque desciende el número en Irak y aumenta
-            en Afganistán{' '}
+            en Afganistán{" "}
           </li>
           <li>
             <b>

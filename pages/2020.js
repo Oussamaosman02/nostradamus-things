@@ -1,10 +1,15 @@
-import s from '../styles/years.module.css';
-import Head from 'next/head';
+import s from "../styles/years.module.css";
+import Head from "next/head";
+
+import Image from "next/image";
+
+import trump from "../public/assets/trump-nostradamus.webp";
+import nasa from "../public/assets/nasa-nostradamus.webp";
 
 export default function dosveinte() {
   return (
     <>
-      {' '}
+      {" "}
       <Head>
         <title>Nostradamus para 2020</title>
         <meta
@@ -64,6 +69,16 @@ export default function dosveinte() {
       <div className={s.cont}>
         <ul>
           <li>
+            <div>
+              <Image
+                src={nasa}
+                width={449}
+                height={220}
+                alt="La NASA inicia la nueva era de los viajes espaciales"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>La NASA inicia la nueva era de los viajes espaciales</b>La
             primera misión operativa con las naves de la empresa SpaceX llega a
             la Estación Espacial Internacional.La misión Crew-1 de la NASA, la
@@ -95,6 +110,16 @@ export default function dosveinte() {
             de entrada planteaba metas poco realistas
           </li>
           <li>
+            <div>
+              <Image
+                src={trump}
+                width={700}
+                height={394}
+                alt="Muere el hermano menor de Donald Trump, el «mejor amigo» del presidente"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>
               Muere el hermano menor de Donald Trump, el «mejor amigo» del
               presidente

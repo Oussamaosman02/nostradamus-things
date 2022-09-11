@@ -6,7 +6,7 @@ import imagen from "../public/nostradamus.jpg";
 import st from "../styles/layout.module.css";
 export default function Layout({ children }) {
   const router = useRouter();
-  const uri = "https://nostradamus-unofficial.netlify.app";
+  const uri = "https://homosapiens.site";
   const url = `${uri}${router.route}`;
   return (
     <div className={st.messi}>

@@ -1,7 +1,10 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import styles from '../styles/Home.module.css';
+import Head from "next/head";
+import Link from "next/link";
+import styles from "../styles/Home.module.css";
 
+import Image from "next/image";
+
+import profecias from "../public/assets/profecias-nostradamus.webp";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -70,6 +73,16 @@ export default function Home() {
         predicen eventos futuros. El libro se publicó por primera vez en 1555.
       </p>
       <h2>Las profecías</h2>
+      <div>
+        <Image
+          src={profecias}
+          width={600}
+          height={475}
+          alt="libro de profecias de Nostradamus"
+          layout="responsive"
+          placeholder="blur"
+        />
+      </div>
       <p>
         Hubo biografías de Nostradamus que afirman que temía ser perseguido de
         herejía por la Inquisición, ya que muchos otros, quienes habían

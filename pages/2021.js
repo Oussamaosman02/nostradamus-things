@@ -1,5 +1,11 @@
-import s from '../styles/years.module.css';
-import Head from 'next/head';
+import s from "../styles/years.module.css";
+import Head from "next/head";
+
+import Image from "next/image";
+
+import astroworld from "../public/assets/astroworld-nostradamus.webp";
+import neuralink from "../public/assets/neuralink-nostradamus.webp";
+import marsella from "../public/assets/marsella-nostradamus.webp";
 
 export default function dosveintiuno() {
   return (
@@ -70,6 +76,17 @@ export default function dosveintiuno() {
       <div className={s.cont}>
         <ul>
           <li>
+            {" "}
+            <div>
+              <Image
+                src={astroworld}
+                width={440}
+                height={238}
+                alt="Tragedia en Astroworld Festival, de Travis Scott: 8 muertos y cientos de heridos"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>
               Tragedia en Astroworld Festival, de Travis Scott: 8 muertos y
               cientos de heridos
@@ -129,6 +146,17 @@ export default function dosveintiuno() {
             necesario evacuar a los ciudadanos de la zona.
           </li>
           <li>
+            {" "}
+            <div>
+              <Image
+                src={neuralink}
+                width={700}
+                height={465}
+                alt="Elon Musk asegura que Neuralink espera empezar a implantar sus chips cerebrales en humanos en 2022, algo más tarde de lo que había previsto"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>
               Elon Musk asegura que Neuralink espera empezar a implantar sus
               chips cerebrales en humanos en 2022, algo más tarde de lo que
@@ -184,6 +212,16 @@ export default function dosveintiuno() {
             septiembre y octubre y una promesa de miles de millones de euros
             para atajar el problema.
             <br />
+            <div>
+              <Image
+                src={marsella}
+                width={640}
+                height={360}
+                alt="Los niños víctimas de la sucia guerra de pandillas en Marsella,Francia"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>
               Los niños víctimas de la sucia guerra de pandillas en Marsella,
               Francia

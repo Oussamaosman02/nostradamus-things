@@ -1,5 +1,9 @@
-import s from '../styles/years.module.css';
-import Head from 'next/head';
+import s from "../styles/years.module.css";
+import Head from "next/head";
+import Image from "next/image";
+
+import ramblas from "../public/assets/ramblas2017-nostradamus.webp";
+import vesubio from "../public/assets/vesubio2017-nostradamus.webp";
 
 export default function dosdiecisiete() {
   return (
@@ -79,6 +83,16 @@ export default function dosdiecisiete() {
             otro el 19 de septiembre de 7.1 que dejo 370 fallecidos
           </li>
           <li>
+            <div>
+              <Image
+                src={ramblas}
+                width={600}
+                height={327}
+                alt="Un atentado terrorista en Barcelona provoca al menos 13 muertos"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>
               Un atentado terrorista en Barcelona provoca al menos 13 muertos
             </b>
@@ -113,7 +127,7 @@ export default function dosdiecisiete() {
             <b>
               La economía europea acelera su recuperación con España en el grupo
               de cabeza
-            </b>{' '}
+            </b>{" "}
             Italia, cuestionada por su elevada deuda y la anemia que afecta a su
             economía desde hace más de 15 años, ha sorprendido favorablemente.
             Roma ha acelerado el ritmo de crecimiento interanual hasta el 1,5%
@@ -145,6 +159,16 @@ export default function dosdiecisiete() {
             muertas o más de 100 son afectadas) que en la década de 1960
           </li>
           <li>
+            <div>
+              <Image
+                src={vesubio}
+                width={500}
+                height={281}
+                alt="Arde el Vesubio: desalojo de personas de sus alrededores"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>Arde el Vesubio: desalojo de personas de sus alrededores</b>Los
             violentos incendios forestales en Italia han forzado más
             evacuaciones en la ciudad costera de Torre del Greco, situada a lo

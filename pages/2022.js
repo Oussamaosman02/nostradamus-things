@@ -1,5 +1,10 @@
-import s from '../styles/years.module.css';
-import Head from 'next/head';
+import s from "../styles/years.module.css";
+import Head from "next/head";
+
+import Image from "next/image";
+
+import isabel from "../public/assets/isabel-nostradamus.webp";
+import ucrania from "../public/assets/ucrania-nostradamus.webp";
 
 export default function dosveintidos() {
   return (
@@ -21,7 +26,7 @@ export default function dosveintidos() {
       <div className={s.cont}>
         <ol>
           <li>
-            {' '}
+            {" "}
             «Templos sagrados del tiempo romano rechazarán los cimientos de su
             fundación»
             <span className={s.act}></span>
@@ -64,11 +69,31 @@ export default function dosveintidos() {
       <div className={s.cont}>
         <ul>
           <li>
+            <div>
+              <Image
+                src={isabel}
+                width={990}
+                height={556}
+                alt="Muere la reina Isabel II de Inglaterra"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>Muere la reina Isabel II de Inglaterra</b>La reina Isabel II
             murió ayer 8 de septiembre de 2022 a los 96 años de edad y después
             de 70 ejerciendo como monarca regente
           </li>
           <li>
+            <div>
+              <Image
+                src={ucrania}
+                width={1200}
+                height={675}
+                alt="Rusa invade Ucrania"
+                layout="responsive"
+                placeholder="blur"
+              />
+            </div>
             <b>
               Rusa invade Ucrania: el asedio ruso a Kiev y Járkiv, las dos
               ciudades más grandes de Ucrania
