@@ -2,7 +2,7 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import imagen from "../public/nostradamus.jpg";
+import imagen from "../public/nostradamus.webp";
 import st from "../styles/layout.module.css";
 export default function Layout({ children }) {
   const router = useRouter();
@@ -20,7 +20,7 @@ export default function Layout({ children }) {
         <link rel="canonical" href={url} />
         <meta
           property="og:image:secure_url"
-          content={`${uri}/nostradamus.jpg`}
+          content={`${uri}/nostradamus.webp`}
         />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:alt" content="Nostradamus" />
@@ -32,9 +32,9 @@ export default function Layout({ children }) {
             <Image
               priority
               src={imagen}
-              width={833}
+              width={417}
               alt="nostradamus"
-              height={1024}
+              height={512}
               layout="responsive"
               placeholder="blur"
             />
