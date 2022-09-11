@@ -17,7 +17,7 @@ export default function Layout({ children }) {
         <meta property="og:image" content="/android-chrome-192" />
         <meta property="og:image:width" content="192" />
         <meta property="og:image:height" content="192" />
-
+        <link rel="canonical" href={url} />
         <meta
           property="og:image:secure_url"
           content={`${uri}/nostradamus.jpg`}

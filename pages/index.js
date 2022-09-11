@@ -12,12 +12,12 @@ export default function Home() {
         <title>Nostradamus</title>
         <meta
           name="description"
-          content="¿Quién es Nostradamus y que predicciones hizo por cada año?Todo lo que acertó y falló con noticias aquí"
+          content="¿Quién es Nostradamus y que predicciones hizo para cada año? Todo lo que acertó y falló con noticias aquí"
         />
         <meta property="og:title" content="Predicciones de Nostradamus" />
         <meta
           property="og:description"
-          content="¿Quién es Nostradamus y que predicciones hizo por cada año?"
+          content="¿Quién es Nostradamus y que predicciones hizo para cada año?"
         />
         <meta property="og:site_name" content="Nostradamus" />
       </Head>
