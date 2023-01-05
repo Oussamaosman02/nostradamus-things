@@ -1,26 +1,26 @@
-import s from "../styles/years.module.css";
-import Head from "next/head";
+import s from '../styles/years.module.css'
+import Head from 'next/head'
 
-import Image from "next/image";
+import Image from 'next/image'
 
-import california from "../public/assets/california-nostradamus.webp";
-import estromboli from "../public/assets/estromboli-nostradamus.webp";
+import california from '../public/assets/california-nostradamus.webp'
+import estromboli from '../public/assets/estromboli-nostradamus.webp'
 
-export default function dosdiecinueve() {
+export default function dosdiecinueve () {
   return (
     <>
       <Head>
         <title>Nostradamus para 2019</title>
         <meta
-          name="description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2019? Entonces no te puedes perder nuestra página"
+          name='description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2019? Entonces no te puedes perder nuestra página'
         />
-        <meta property="og:title" content="Predicciones de Nostradamus 2019" />
+        <meta property='og:title' content='Predicciones de Nostradamus 2019' />
         <meta
-          property="og:description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2019?"
+          property='og:description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2019?'
         />
-        <meta property="og:site_name" content="Nostradamus para 2019" />
+        <meta property='og:site_name' content='Nostradamus para 2019' />
       </Head>
       <h1 className={s.h}>Predicciones para 2019</h1>
       <div className={s.cont}>
@@ -29,31 +29,31 @@ export default function dosdiecinueve() {
             En su libro, que incluye diez siglos y 942 cuartetos, Nostradamus
             supuestamente predijo que la Tercera Guerra Mundial se librará entre
             dos superpotencias a partir de 2019, y podría durar 27 años
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
           <li>
             El astrólogo francés también predijo el aumento del terrorismo en
             Europa y del extremismo religioso en el Medio Oriente.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Y aunque los líderes políticos llegarán a acuerdos para encontrar
             soluciones para el cambio climático, eso no podrá detener un
             terremoto destructivo que afectará a California y la isla de
             Vancouver en Canadá.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             la erupción del Vesubio, uno de los volcanes dormidos más
             importantes del mundo, transformarían por completo el planeta, con
             unas catástrofes que afectarían a toda la Tierra, según Nostradamus.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Un desastre natural que afectará a la Tierra vendrá del espacio
             exterior, con una lluvia de meteoritos que impactará en el planeta
             provocando terremotos y tsunamis.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             &quot;Los cerdos se convertirán en hermanos del hombre&quot;.Puede
@@ -61,7 +61,7 @@ export default function dosdiecinueve() {
             que a platicar con el ganado porcino o la animalada en general, pero
             si algún experto afirma esto, así sea, ya hay quien le da un beso en
             la frente y se despide de sus mascotas antes de irse a dormir
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
         </ol>
       </div>
@@ -99,10 +99,10 @@ export default function dosdiecinueve() {
                 src={california}
                 width={600}
                 height={337}
-                alt="Un fuerte terremoto de magnitud 7,1 vuelve a sacudir el sur de
-                California"
-                layout="responsive"
-                placeholder="blur"
+                alt='Un fuerte terremoto de magnitud 7,1 vuelve a sacudir el sur de
+                California'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>
@@ -119,9 +119,9 @@ export default function dosdiecinueve() {
                 src={estromboli}
                 width={449}
                 height={220}
-                alt="La erupción del volcán Estrómboli"
-                layout="responsive"
-                placeholder="blur"
+                alt='La erupción del volcán Estrómboli'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>La erupción del volcán Estrómboli</b>Además un volcán situado en
@@ -142,7 +142,7 @@ export default function dosdiecinueve() {
             terrorismo ha caído en el último año. Por primera vez desde 2013,
             Daesh no es el grupo terrorista más letal. MENA es la región con más
             muertes por terrorismo, aunque desciende el número en Irak y aumenta
-            en Afganistán{" "}
+            en Afganistán{' '}
           </li>
           <li>
             <b>
@@ -162,5 +162,5 @@ export default function dosdiecinueve() {
         </ul>
       </div>
     </>
-  );
+  )
 }

@@ -1,23 +1,23 @@
-import s from "../styles/years.module.css";
-import Head from "next/head";
-import Image from "next/image";
-import nobel from "../public/assets/nobelmedicina-nostradamus.webp";
+import s from '../styles/years.module.css'
+import Head from 'next/head'
+import Image from 'next/image'
+import nobel from '../public/assets/nobelmedicina-nostradamus.webp'
 
-export default function dosdieciocho() {
+export default function dosdieciocho () {
   return (
     <>
       <Head>
         <title>Nostradamus para 2018</title>
         <meta
-          name="description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2018? Entonces no te puedes perder nuestra página"
+          name='description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2018? Entonces no te puedes perder nuestra página'
         />
-        <meta property="og:title" content="Predicciones de Nostradamus 2018" />
+        <meta property='og:title' content='Predicciones de Nostradamus 2018' />
         <meta
-          property="og:description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2018?"
+          property='og:description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2018?'
         />
-        <meta property="og:site_name" content="Nostradamus para 2018" />
+        <meta property='og:site_name' content='Nostradamus para 2018' />
       </Head>
       <h1 className={s.h}>Predicciones para 2018</h1>
       <div className={s.cont}>
@@ -28,7 +28,7 @@ export default function dosdieciocho() {
             perturbados,/ cuando al infiel, Dios y santos, arrollarán”. Según
             los estudiosos, este fragmento haría referencia a un supuesto
             terremoto que tendría lugar en Estados Unidos.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             En la décima centuria de Nostradamus, publicada en el año 1568, se
@@ -47,7 +47,7 @@ export default function dosdieciocho() {
             XVII se ha conocido al Padre General de esta orden religiosa como el
             papa negro, debido al color de las sobrias sotanas que visten todos
             sus miembros, en contraste con la vestimenta blanca del Papa.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Otra de las predicciones tendría qué ver con el papel de Estados
@@ -56,7 +56,7 @@ export default function dosdieciocho() {
             superpotencia” que, se cree, sería provocada por la corrupción
             política y las crecientes desigualdades sociales en ese país
             norteamericano
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             “Una ciudad desmayada de miedo”, habría predicho que un líder
@@ -65,7 +65,7 @@ export default function dosdieciocho() {
             nueva guerra mundial que duraría 27 años. “Entrará villano,
             amenazador infame./ Tiranizando la Mesopotamia./ Todos amigos de
             adulteria dama,/ Tierra horrible, negra fisonomía”,
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Algunos investigadores de la obra de Nostradamus, finalmente, creen
@@ -73,7 +73,7 @@ export default function dosdieciocho() {
             para varias enfermedades, gracias a importantes avances en la
             medicina. Se cree que la tecnología permitiría erradicar algunos
             tipos de cánceres o incluso enfermedades incurables como el sida.
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
         </ol>
       </div>
@@ -107,9 +107,9 @@ export default function dosdieciocho() {
                 src={nobel}
                 width={720}
                 height={405}
-                alt="La inmunoterapia del cáncer gana el Nobel de Medicina"
-                layout="responsive"
-                placeholder="blur"
+                alt='La inmunoterapia del cáncer gana el Nobel de Medicina'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>La inmunoterapia del cáncer gana el Nobel de Medicina</b>La
@@ -128,5 +128,5 @@ export default function dosdieciocho() {
         </ul>
       </div>
     </>
-  );
+  )
 }

@@ -1,26 +1,26 @@
-import Head from "next/head";
-import Image from "next/image";
-import s from "../styles/years.module.css";
+import Head from 'next/head'
+import Image from 'next/image'
+import s from '../styles/years.module.css'
 
-import anciana from "../public/assets/anciana-nostradamus.webp";
-import calbuco from "../public/assets/calbuco-nostradamus.webp";
-import coquimbo from "../public/assets/coquimbo-nostradamus.webp";
+import anciana from '../public/assets/anciana-nostradamus.webp'
+import calbuco from '../public/assets/calbuco-nostradamus.webp'
+import coquimbo from '../public/assets/coquimbo-nostradamus.webp'
 
-export default function dosquince() {
+export default function dosquince () {
   return (
     <>
       <Head>
         <title>Nostradamus para 2015</title>
         <meta
-          name="description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2015 ?Entonces no te puedes perder nuestra página"
+          name='description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2015 ?Entonces no te puedes perder nuestra página'
         />
-        <meta property="og:title" content="Predicciones de Nostradamus 2015" />
+        <meta property='og:title' content='Predicciones de Nostradamus 2015' />
         <meta
-          property="og:description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2015 ?"
+          property='og:description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2015 ?'
         />
-        <meta property="og:site_name" content="Nostradamus para 2015" />
+        <meta property='og:site_name' content='Nostradamus para 2015' />
       </Head>
       <h1 className={s.h}>Predicciones para 2015</h1>
       <div className={s.cont}>
@@ -30,55 +30,55 @@ export default function dosquince() {
             tendría en 2015 un solo idioma gracias a una especie de máquina para
             traducción universal. Algunos lo interpretan relacionándolo con los
             ordenaroes modernos.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             La economía mundial se derrumbará. Según Nostradamus,
             literalmentente &quot;los ricos morirán muchas veces&quot;
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Habrá una gran erupción del Vesubio, concretamente para finales del
             año que viene o principios de 2016. Añadió que si la erupción ocurre
             de día la región afectada quedará sumida en la oscuridad absoluta
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             La radiación quemará nuestro mundo. Así lo escribió: &quot;El cielo
             se abrirá, los campos serán quemados por el calor&quot;. Hay quien
             relaciona esta predicción con el cambio climático
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
           <li>
             La gente vivirá más de 200 años, gracias a los avances en medicina.
             En 2015, una persona anciana como él, que entonces tenía 80 años,
             parecerá que tiene 50 años
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Un gran terremoto sacudirá el oeste de América del Norte, que podría
             desembocar en una erupción volcánica
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Todos los impuestos serán abolidos en el mundo occidental.
             Nostradamus escribió que &quot;la gente se negará a pagar impuestos
             al rey&quot;.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Aprenderemos a hablar con animales. Los avances en la telepatía
             harán posible que las personas hablen con sus mascotas lo que
             conducirá a más vegetarianismo. &quot;El cerdo se convertirá en un
             hermano para el hombre&quot;, sentenció.
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
           <li>
             Los muertos resucitarán.“En la edad del milenio, cuando no haya más
             espacio en el infierno, los muertos saldrán de sus tumbas”, advirtió
             Nostradamus. Esta predicción escalofriante coincide con las
             profecías que se encuentran en el Apocalipsis.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Los aspirantes a padres necesitarán licencias.Los días en que
@@ -87,7 +87,7 @@ export default function dosquince() {
             mundial para detener la superpoblación ? Puede que sea demasiado
             drástico ya que los niños son propiedades de sus padres, no del
             gobierno.
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
         </ol>
       </div>
@@ -100,9 +100,9 @@ export default function dosquince() {
                 src={calbuco}
                 width={606}
                 height={404}
-                alt="Entra en erupción el volcán Calbuco"
-                layout="responsive"
-                placeholder="blur"
+                alt='Entra en erupción el volcán Calbuco'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>Entra en erupción el volcán Calbuco tras medio siglo dormido</b>
@@ -153,9 +153,9 @@ export default function dosquince() {
                 src={anciana}
                 width={770}
                 height={542}
-                alt="Muere a los 117 años la persona más vieja del mundo"
-                layout="responsive"
-                placeholder="blur"
+                alt='Muere a los 117 años la persona más vieja del mundo'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>Muere a los 117 años la persona más vieja del mundo</b>La persona
@@ -171,9 +171,9 @@ export default function dosquince() {
                 src={coquimbo}
                 width={490}
                 height={354}
-                alt="Terremoto de Coquimbo 2015"
-                layout="responsive"
-                placeholder="blur"
+                alt='Terremoto de Coquimbo 2015'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>Terremoto de Coquimbo</b>
@@ -204,7 +204,7 @@ export default function dosquince() {
             <br />
             <b>
               Crean aplicación que te ayuda a &quot;hablar&quot; con tu perro
-            </b>{" "}
+            </b>{' '}
             Una compañía estadounidense creó un sensor que analiza los
             movimientos de los perros y ayuda a identificar su estado de ánimo.
             Luego, son trasmitidos al celular de su amo para que éste sepa qué
@@ -213,5 +213,5 @@ export default function dosquince() {
         </ul>
       </div>
     </>
-  );
+  )
 }

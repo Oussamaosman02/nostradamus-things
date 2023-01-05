@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://homosapiens.site</loc><lastmod>2022-09-11T08:15:00.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://homosapiens.site/2015</loc><lastmod>2022-09-11T08:15:00.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://homosapiens.site/2016</loc><lastmod>2022-09-11T08:15:00.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://homosapiens.site/2017</loc><lastmod>2022-09-11T08:15:00.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://homosapiens.site/2018</loc><lastmod>2022-09-11T08:15:00.774Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://homosapiens.site/2019</loc><lastmod>2022-09-11T08:15:00.774Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://homosapiens.site/2020</loc><lastmod>2022-09-11T08:15:00.774Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://homosapiens.site/2021</loc><lastmod>2022-09-11T08:15:00.774Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://homosapiens.site/2022</loc><lastmod>2022-09-11T08:15:00.774Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://homosapiens.site</loc><lastmod>2023-01-05T08:04:16.039Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://homosapiens.site/2015</loc><lastmod>2023-01-05T08:04:16.039Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://homosapiens.site/2016</loc><lastmod>2023-01-05T08:04:16.039Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://homosapiens.site/2017</loc><lastmod>2023-01-05T08:04:16.039Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://homosapiens.site/2018</loc><lastmod>2023-01-05T08:04:16.039Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://homosapiens.site/2019</loc><lastmod>2023-01-05T08:04:16.039Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://homosapiens.site/2020</loc><lastmod>2023-01-05T08:04:16.039Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://homosapiens.site/2021</loc><lastmod>2023-01-05T08:04:16.039Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://homosapiens.site/2022</loc><lastmod>2023-01-05T08:04:16.039Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://homosapiens.site/2023</loc><lastmod>2023-01-05T08:04:16.039Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

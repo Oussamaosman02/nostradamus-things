@@ -1,27 +1,27 @@
-import s from "../styles/years.module.css";
-import Head from "next/head";
+import s from '../styles/years.module.css'
+import Head from 'next/head'
 
-import Image from "next/image";
+import Image from 'next/image'
 
-import trump from "../public/assets/trump-nostradamus.webp";
-import nasa from "../public/assets/nasa-nostradamus.webp";
+import trump from '../public/assets/trump-nostradamus.webp'
+import nasa from '../public/assets/nasa-nostradamus.webp'
 
-export default function dosveinte() {
+export default function dosveinte () {
   return (
     <>
-      {" "}
+      {' '}
       <Head>
         <title>Nostradamus para 2020</title>
         <meta
-          name="description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2020? Entonces no te puedes perder nuestra página"
+          name='description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2020? Entonces no te puedes perder nuestra página'
         />
-        <meta property="og:title" content="Predicciones de Nostradamus 2020" />
+        <meta property='og:title' content='Predicciones de Nostradamus 2020' />
         <meta
-          property="og:description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2020?"
+          property='og:description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2020?'
         />
-        <meta property="og:site_name" content="Nostradamus para 2020" />
+        <meta property='og:site_name' content='Nostradamus para 2020' />
       </Head>
       <h1 className={s.h}>Predicciones para 2020</h1>
       <div className={s.cont}>
@@ -29,39 +29,39 @@ export default function dosveinte() {
           <li>
             Nostradamus habla del 2020 diciendo que un importante Rey del mundo
             dejará el trono para dar inicio a una nueva etapa.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Durante este 2020 ocurrirán fuertes terremotos en América, afirma
             Nostradamus, aunque no especifica el lugar donde ocurrirán.
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
           <li>
             Nostradamus asegura que una gran potencia económica caerá y no podrá
             levantarse.Caerán los mercados y el mundo entrará en recesión
             económica.
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
           <li>
             Esta es una de las predicciones más polémicas de Nostradamus y que
             ha causado división entre muchos de sus seguidores pues el médico
             francés habla sobre el asesinato del líder mundial más importante en
             América, pero, esto puede tener muchas interpretaciones.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Según Nostradamus, este 2020 experimentaríamos una guerra poco
             convencional entre dos imponentes potencias.
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
           <li>
             Michel de Nôtre-Dome anticipó también los viajes comerciales al
             espacio
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
           <li>
             Nostradamus predijo que habría personas con chips en el cuerpo
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
         </ol>
       </div>
@@ -74,9 +74,9 @@ export default function dosveinte() {
                 src={nasa}
                 width={449}
                 height={220}
-                alt="La NASA inicia la nueva era de los viajes espaciales"
-                layout="responsive"
-                placeholder="blur"
+                alt='La NASA inicia la nueva era de los viajes espaciales'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>La NASA inicia la nueva era de los viajes espaciales</b>La
@@ -115,9 +115,9 @@ export default function dosveinte() {
                 src={trump}
                 width={700}
                 height={394}
-                alt="Muere el hermano menor de Donald Trump, el «mejor amigo» del presidente"
-                layout="responsive"
-                placeholder="blur"
+                alt='Muere el hermano menor de Donald Trump, el «mejor amigo» del presidente'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>
@@ -137,5 +137,5 @@ export default function dosveinte() {
         </ul>
       </div>
     </>
-  );
+  )
 }

@@ -1,25 +1,25 @@
-import s from "../styles/years.module.css";
-import Head from "next/head";
-import Image from "next/image";
+import s from '../styles/years.module.css'
+import Head from 'next/head'
+import Image from 'next/image'
 
-import ramblas from "../public/assets/ramblas2017-nostradamus.webp";
-import vesubio from "../public/assets/vesubio2017-nostradamus.webp";
+import ramblas from '../public/assets/ramblas2017-nostradamus.webp'
+import vesubio from '../public/assets/vesubio2017-nostradamus.webp'
 
-export default function dosdiecisiete() {
+export default function dosdiecisiete () {
   return (
     <>
       <Head>
         <title>Nostradamus para 2017</title>
         <meta
-          name="description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2017?Entonces no te puedes perder nuestra página"
+          name='description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2017?Entonces no te puedes perder nuestra página'
         />
-        <meta property="og:title" content="Predicciones de Nostradamus 2017" />
+        <meta property='og:title' content='Predicciones de Nostradamus 2017' />
         <meta
-          property="og:description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2017?"
+          property='og:description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2017?'
         />
-        <meta property="og:site_name" content="Nostradamus para 2017" />
+        <meta property='og:site_name' content='Nostradamus para 2017' />
       </Head>
       <h1 className={s.h}>Predicciones para 2017</h1>
       <div className={s.cont}>
@@ -29,48 +29,48 @@ export default function dosdiecisiete() {
             donde el país norteamericano entrará en una etapa “más ingobernable
             e incompetente”. Todo esto deberá a la corrupción política y fuertes
             desigualdades en la sociedad.
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
           <li>
             China se convertirá en la nueva superpotencia.El gigante asiático
             realizará un movimiento estratégico que le podrá a la cabeza del
             mundo, convirtiéndose en la nueva superpotencia. Este movimiento
             tendrá consecuencias a largo plazo.
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
           <li>
             Fuerte terremoto.Un gran terremoto sacudirá la costa de Estados
             Unidos, justamente donde se encuentra la falla de San Andrés.
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
           <li>
             Grave crisis económica en Italia que arrastrará a toda Europa.El
             francés pronosticaba que Italia sufriría una grave crisis económica
             que arrastraría a toda Europa a una nueva crisis financiera.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             La muerte del Papa.Nostradamus predijo la muerte del líder de la
             Iglesia Católica cuando coincidiesen dos Papas en un mismo periodo.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Conflictos en América Latina.Varios conflictos se producirán en los
             países de América Latina debido a sus gobiernos y a los cambios
             drásticos.
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
           <li>
             El calentamiento global dará lugar a conflictos armados.Debido a la
             escasez de recursos naturales se producirán fuertes conflictos
             armados, Nostradamus los llamó ‘Hot War’
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
           <li>
             Terrorismo y holocausto nuclear.El terrorismo será el principal
             problema del año aunque también escribió sobre un holocausto nuclear
             antes de que se produjese la tercera guerra mundial.
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
         </ol>
       </div>
@@ -88,9 +88,9 @@ export default function dosdiecisiete() {
                 src={ramblas}
                 width={600}
                 height={327}
-                alt="Un atentado terrorista en Barcelona provoca al menos 13 muertos"
-                layout="responsive"
-                placeholder="blur"
+                alt='Un atentado terrorista en Barcelona provoca al menos 13 muertos'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>
@@ -127,7 +127,7 @@ export default function dosdiecisiete() {
             <b>
               La economía europea acelera su recuperación con España en el grupo
               de cabeza
-            </b>{" "}
+            </b>{' '}
             Italia, cuestionada por su elevada deuda y la anemia que afecta a su
             economía desde hace más de 15 años, ha sorprendido favorablemente.
             Roma ha acelerado el ritmo de crecimiento interanual hasta el 1,5%
@@ -164,9 +164,9 @@ export default function dosdiecisiete() {
                 src={vesubio}
                 width={500}
                 height={281}
-                alt="Arde el Vesubio: desalojo de personas de sus alrededores"
-                layout="responsive"
-                placeholder="blur"
+                alt='Arde el Vesubio: desalojo de personas de sus alrededores'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>Arde el Vesubio: desalojo de personas de sus alrededores</b>Los
@@ -177,5 +177,5 @@ export default function dosdiecisiete() {
         </ul>
       </div>
     </>
-  );
+  )
 }

@@ -1,25 +1,25 @@
-import s from "../styles/years.module.css";
-import Head from "next/head";
-import Image from "next/image";
+import s from '../styles/years.module.css'
+import Head from 'next/head'
+import Image from 'next/image'
 
-import alaska from "../public/assets/alaska2016-nostradamus.webp";
-import ecuador from "../public/assets/ecuador2016-nostradamus.webp";
+import alaska from '../public/assets/alaska2016-nostradamus.webp'
+import ecuador from '../public/assets/ecuador2016-nostradamus.webp'
 
-export default function dosdieciseis() {
+export default function dosdieciseis () {
   return (
     <>
       <Head>
         <title>Nostradamus para 2016</title>
         <meta
-          name="description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2016?Entonces no te puedes perder nuestra página"
+          name='description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2016?Entonces no te puedes perder nuestra página'
         />
-        <meta property="og:title" content="Predicciones de Nostradamus 2016" />
+        <meta property='og:title' content='Predicciones de Nostradamus 2016' />
         <meta
-          property="og:description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2016?"
+          property='og:description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2016?'
         />
-        <meta property="og:site_name" content="Nostradamus para 2016" />
+        <meta property='og:site_name' content='Nostradamus para 2016' />
       </Head>
       <h1 className={s.h}>Predicciones para 2016</h1>
       <div className={s.cont}>
@@ -30,7 +30,7 @@ export default function dosdieciseis() {
             durará 27 años. Este evento llegará a su apogeo cuando un cometa sea
             visible en el cielo. Este suceso vendrá acompañado de otros eventos
             como un combate nuclear y desastres naturales.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Un erupción del Vesubio. Bien podría suceder a finales de 2015 o
@@ -41,20 +41,20 @@ export default function dosdieciseis() {
             erupción se verá acompañada de terremotos, los cuales pueden ocurrir
             cada cinco o diez minutos, matando entre 6 y 16 mil personas. Este
             hecho esta previsto para principios del 2016.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
-            {" "}
+            {' '}
             Habrá un gran terremoto en Estados Unidos. Según la profecía, será
             el más fuerte de toda la historia en territorio estadounidense.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Se derrumbará la economía mundial. Desde 2009 la economía en el
             mundo se ha vuelto inestable y el futuro parece no ser tan
             prometedor. Según Nostradamus, los hombres ricos morirán muchas
             veces.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Todos los impuestos serán abolidos en el mundo occidental: Una gran
@@ -62,21 +62,21 @@ export default function dosdieciseis() {
             vidente escribe: ?Las personas se niegan a pagar el impuesto al rey.
             Ese día muchos van a celebrar la libertad en un país que grava sin
             piedad.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             La radiación quemará al mundo. Nostradamus vaticinaba que los reyes
             robarían los bosques, que el cielo se abriría y que los campos
             serían quemados por el calor. Tal vez no sea del todo falso, ¿les
             suena familiar el concepto ‘calentamiento global’?
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
           <li>
             Viviremos por 200 años. Nostradamus dijo que los avances de la
             medicina ayudarán a alargar la vida de los seres humanos. No sabemos
             si esto se cumpla en 2016, pero lo que sí es cierto es que cada vez
             se alarga la esperanza de vida.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Se necesitará de un permiso para poder ser madre o padre. Al parecer
@@ -84,21 +84,21 @@ export default function dosdieciseis() {
             quieran ser padres no podrán hacerlo con libertad, a menos que pidan
             un permiso o licencia. En China ya pasaba esto desde hace varios
             años.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Los humanos aprenderán a hablar con los animales: “Los cerdos se
             convertirán en un hermano para el hombre”, dice el profeta, haciendo
             alusión que los avances en la ciencia de la telepatía harán posible
             que las personas hablen con sus mascotas
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
           <li>
             Las diferencias entre idiomas desaparecerán: “Después de la
             invención de un nuevo motor, el mundo será como en los días antes de
             Babel”, escribió Nostradamus. Tal vez se refería a una máquina de
             traducción universal, el ordenador. Él aseguró que este desarrollo.
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
         </ol>
       </div>
@@ -152,9 +152,9 @@ export default function dosdieciseis() {
                 src={alaska}
                 width={520}
                 height={250}
-                alt="Terremoto de magnitud 7,1 en el sur de Alaska"
-                layout="responsive"
-                placeholder="blur"
+                alt='Terremoto de magnitud 7,1 en el sur de Alaska'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>Terremoto de magnitud 7,1 en el sur de Alaska</b>reporta el
@@ -168,9 +168,9 @@ export default function dosdieciseis() {
                 src={ecuador}
                 width={640}
                 height={360}
-                alt="Terremoto en Ecuador 2016"
-                layout="responsive"
-                placeholder="blur"
+                alt='Terremoto en Ecuador 2016'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>Terremoto en Ecuador</b>El terremoto de Ecuador de 2016 fue un
@@ -199,5 +199,5 @@ export default function dosdieciseis() {
         </ul>
       </div>
     </>
-  );
+  )
 }

@@ -17,6 +17,7 @@
   "devDependencies": {
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
-    "next-sitemap": "3.1.20"
+    "next-sitemap": "3.1.20",
+    "standard": "^17.0.0"
   }
 }

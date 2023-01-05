@@ -1,66 +1,71 @@
-import Head from "next/head";
-import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import Head from 'next/head'
+import Link from 'next/link'
+import styles from '../styles/Home.module.css'
 
-import Image from "next/image";
+import Image from 'next/image'
 
-import profecias from "../public/assets/profecias-nostradamus.webp";
-export default function Home() {
+import profecias from '../public/assets/profecias-nostradamus.webp'
+export default function Home () {
   return (
     <div className={styles.container}>
       <Head>
         <title>Nostradamus</title>
         <meta
-          name="description"
-          content="¿Quién es Nostradamus y que predicciones hizo para cada año? Todo lo que acertó y falló con noticias aquí"
+          name='description'
+          content='¿Quién es Nostradamus y que predicciones hizo para cada año? Todo lo que acertó y falló con noticias aquí'
         />
-        <meta property="og:title" content="Predicciones de Nostradamus" />
+        <meta property='og:title' content='Predicciones de Nostradamus' />
         <meta
-          property="og:description"
-          content="¿Quién es Nostradamus y que predicciones hizo para cada año?"
+          property='og:description'
+          content='¿Quién es Nostradamus y que predicciones hizo para cada año?'
         />
-        <meta property="og:site_name" content="Nostradamus" />
+        <meta property='og:site_name' content='Nostradamus' />
       </Head>
       <h1>Predicciones por Año</h1>
       <ul>
         <li>
-          <Link href="/2015">
+          <Link href='/2015'>
             <a>2015</a>
           </Link>
         </li>
         <li>
-          <Link href="/2016">
+          <Link href='/2016'>
             <a>2016</a>
           </Link>
         </li>
         <li>
-          <Link href="/2017">
+          <Link href='/2017'>
             <a>2017</a>
           </Link>
         </li>
         <li>
-          <Link href="/2018">
+          <Link href='/2018'>
             <a>2018</a>
           </Link>
         </li>
         <li>
-          <Link href="/2019">
+          <Link href='/2019'>
             <a>2019</a>
           </Link>
         </li>
         <li>
-          <Link href="/2020">
+          <Link href='/2020'>
             <a>2020</a>
           </Link>
         </li>
         <li>
-          <Link href="/2021">
+          <Link href='/2021'>
             <a>2021</a>
           </Link>
         </li>
         <li>
-          <Link href="/2022">
+          <Link href='/2022'>
             <a>2022</a>
+          </Link>
+        </li>
+        <li>
+          <Link href='/2023'>
+            <a>2023</a>
           </Link>
         </li>
       </ul>
@@ -78,9 +83,9 @@ export default function Home() {
           src={profecias}
           width={600}
           height={475}
-          alt="libro de profecias de Nostradamus"
-          layout="responsive"
-          placeholder="blur"
+          alt='libro de profecias de Nostradamus'
+          layout='responsive'
+          placeholder='blur'
         />
       </div>
       <p>
@@ -113,5 +118,5 @@ export default function Home() {
         requisitos para predecir a través del trípode de bronce.
       </blockquote>
     </div>
-  );
+  )
 }

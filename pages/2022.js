@@ -1,45 +1,45 @@
-import s from "../styles/years.module.css";
-import Head from "next/head";
+import s from '../styles/years.module.css'
+import Head from 'next/head'
 
-import Image from "next/image";
+import Image from 'next/image'
 
-import isabel from "../public/assets/isabel-nostradamus.webp";
-import ucrania from "../public/assets/ucrania-nostradamus.webp";
+import isabel from '../public/assets/isabel-nostradamus.webp'
+import ucrania from '../public/assets/ucrania-nostradamus.webp'
 
-export default function dosveintidos() {
+export default function dosveintidos () {
   return (
     <>
       <Head>
         <title>Nostradamus para 2022</title>
         <meta
-          name="description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el 2022? Entonces no te puedes perder nuestra página"
+          name='description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el 2022? Entonces no te puedes perder nuestra página'
         />
-        <meta property="og:title" content="Predicciones de Nostradamus 2022" />
+        <meta property='og:title' content='Predicciones de Nostradamus 2022' />
         <meta
-          property="og:description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el 2022?"
+          property='og:description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el 2022?'
         />
-        <meta property="og:site_name" content="Nostradamus para 2022" />
+        <meta property='og:site_name' content='Nostradamus para 2022' />
       </Head>
       <h1 className={s.h}>Predicciones para 2022</h1>
       <div className={s.cont}>
         <ol>
           <li>
-            {" "}
+            {' '}
             «Templos sagrados del tiempo romano rechazarán los cimientos de su
             fundación»
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
           <li>
             “La muerte repentina del primer personaje, será cambiado y pondrán a
             otro en su reino”
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
           <li>
             “Como el sol, la cabeza sellará el mar resplandeciente, los peces
             vivos del Mar Negro casi hervirán”
-            <span className={s.amb}></span>
+            <span className={s.noact} />
           </li>
           <li>
             “Bajo el clima babilónico opuesto, grande será sin derramamiento”
@@ -51,17 +51,17 @@ export default function dosveintidos() {
             cambio climático, que provocará desastres naturales, hambre, escasez
             de agua y hará estallar una guerra entre dos países por lograr su
             supervivencia.
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
           <li>
             “Alrededor de la Gran Ciudad, habrá soldados alojados en campos y
             suburbios”
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
           <li>
             &quot;La miel costará mucho más que la cera de las velas; tan alto
             el precio del trigo&quot;
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
         </ol>
       </div>
@@ -74,9 +74,9 @@ export default function dosveintidos() {
                 src={isabel}
                 width={990}
                 height={556}
-                alt="Muere la reina Isabel II de Inglaterra"
-                layout="responsive"
-                placeholder="blur"
+                alt='Muere la reina Isabel II de Inglaterra'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>Muere la reina Isabel II de Inglaterra</b>La reina Isabel II
@@ -89,9 +89,9 @@ export default function dosveintidos() {
                 src={ucrania}
                 width={1200}
                 height={675}
-                alt="Rusa invade Ucrania"
-                layout="responsive"
-                placeholder="blur"
+                alt='Rusa invade Ucrania'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>
@@ -158,5 +158,5 @@ export default function dosveintidos() {
         </ul>
       </div>
     </>
-  );
+  )
 }

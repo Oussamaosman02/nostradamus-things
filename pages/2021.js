@@ -1,27 +1,27 @@
-import s from "../styles/years.module.css";
-import Head from "next/head";
+import s from '../styles/years.module.css'
+import Head from 'next/head'
 
-import Image from "next/image";
+import Image from 'next/image'
 
-import astroworld from "../public/assets/astroworld-nostradamus.webp";
-import neuralink from "../public/assets/neuralink-nostradamus.webp";
-import marsella from "../public/assets/marsella-nostradamus.webp";
+import astroworld from '../public/assets/astroworld-nostradamus.webp'
+import neuralink from '../public/assets/neuralink-nostradamus.webp'
+import marsella from '../public/assets/marsella-nostradamus.webp'
 
-export default function dosveintiuno() {
+export default function dosveintiuno () {
   return (
     <>
       <Head>
         <title>Nostradamus para 2021</title>
         <meta
-          name="description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2021? Entonces no te puedes perder nuestra página"
+          name='description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2021? Entonces no te puedes perder nuestra página'
         />
-        <meta property="og:title" content="Predicciones de Nostradamus 2021" />
+        <meta property='og:title' content='Predicciones de Nostradamus 2021' />
         <meta
-          property="og:description"
-          content="¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2021?"
+          property='og:description'
+          content='¿Quieres saber todas las predicciones que acertó y falló Nostradamus para el año 2021?'
         />
-        <meta property="og:site_name" content="Nostradamus para 2021" />
+        <meta property='og:site_name' content='Nostradamus para 2021' />
       </Head>
       <h1 className={s.h}>Predicciones para 2021</h1>
       <div className={s.cont}>
@@ -31,44 +31,44 @@ export default function dosveintiuno() {
             humanidad, se prepara uno mayor. El Gran Motor renueva las edades.
             Lluvia, sangre, leche, hambre, acero y plaga. En el cielo, se ve
             fuego y una larga estela de chispas”.
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
           <li>
             Pocos jóvenes: medio muertos para empezar. Padres y madres muertos
             de dolor infinito. Mujeres de luto, el monstruo pestilente. El
             Grande ya no será, el mundo entero se acabará
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
           <li>
             ”En el cielo se ve fuego y una larga estela de chispas”. Así se
             refiere Nostradamus a la colisión de un cometa que provocará grandes
             desastres naturales y fuertes terremotos en el planeta.
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             El parque en pendiente, gran calamidad. A través de las tierras del
             Oeste y Lombardía. El fuego en el barco, plaga y cautiverio.
             Mercurio en Sagitario, Saturno desvaneciéndose| es la cuarteta que
             adelanta que un terremoto devastará California
-            <span className={s.noact}></span>
+            <span className={s.noact} />
           </li>
           <li>
             Implantes de chips en el cerebro.“Los nuevos dirigirán el ejército.
             Casi aislado hasta cerca de la orilla. Ayuda de la élite milanesa
             que se esfuerza. El Duque privado de sus ojos en Milán en una jaula
             de hierro”.
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
           <li>
             Veremos el agua subir y la tierra caer debajo de ella
-            <span className={s.amb}></span>
+            <span className={s.amb} />
           </li>
           <li>
             Debido a la discordia y negligencia francesa. Se dará una
             oportunidad a los mahometanos. La tierra y el mar de Siena se
             empaparán de sangre. Y el puerto de Marsella cubierto de barcos y
             velas
-            <span className={s.act}></span>
+            <span className={s.act} />
           </li>
         </ol>
       </div>
@@ -76,15 +76,15 @@ export default function dosveintiuno() {
       <div className={s.cont}>
         <ul>
           <li>
-            {" "}
+            {' '}
             <div>
               <Image
                 src={astroworld}
                 width={440}
                 height={238}
-                alt="Tragedia en Astroworld Festival, de Travis Scott: 8 muertos y cientos de heridos"
-                layout="responsive"
-                placeholder="blur"
+                alt='Tragedia en Astroworld Festival, de Travis Scott: 8 muertos y cientos de heridos'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>
@@ -146,15 +146,15 @@ export default function dosveintiuno() {
             necesario evacuar a los ciudadanos de la zona.
           </li>
           <li>
-            {" "}
+            {' '}
             <div>
               <Image
                 src={neuralink}
                 width={700}
                 height={465}
-                alt="Elon Musk asegura que Neuralink espera empezar a implantar sus chips cerebrales en humanos en 2022, algo más tarde de lo que había previsto"
-                layout="responsive"
-                placeholder="blur"
+                alt='Elon Musk asegura que Neuralink espera empezar a implantar sus chips cerebrales en humanos en 2022, algo más tarde de lo que había previsto'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>
@@ -217,9 +217,9 @@ export default function dosveintiuno() {
                 src={marsella}
                 width={640}
                 height={360}
-                alt="Los niños víctimas de la sucia guerra de pandillas en Marsella,Francia"
-                layout="responsive"
-                placeholder="blur"
+                alt='Los niños víctimas de la sucia guerra de pandillas en Marsella,Francia'
+                layout='responsive'
+                placeholder='blur'
               />
             </div>
             <b>
@@ -242,5 +242,5 @@ export default function dosveintiuno() {
         </ul>
       </div>
     </>
-  );
+  )
 }
